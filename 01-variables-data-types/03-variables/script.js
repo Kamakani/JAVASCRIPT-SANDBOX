@@ -12,7 +12,7 @@ console.log(age);
 
 // Naming Conventions
 // - Only letters, numbers, underscores and dollar signs
-// - Cab't start with a number
+// - Can't start with a number
 
 // Multi-word Formatting
 // firstName = camelCase
