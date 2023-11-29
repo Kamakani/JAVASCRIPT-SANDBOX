@@ -18,3 +18,44 @@
 // JavaScriupt is a dynamically-types language. This means, we do not explicitly define the types for our vartiables. Many other languages are statically-typed such as C, C++ and Java
 
 // TypeScript is a superset of JavaScript, which allows static -typing. This can make your code more verbose and less prone to errors. TypeScript may be something you want to look into later on.
+
+// String
+const firstName = 'Sara';
+// number
+const age = 30;
+const temp = 98.9;
+
+// boolean
+const hasKids = true;
+
+// null
+const aptNumber = null;
+
+// Undefined
+// let score;
+const score = undefined;
+
+// Symbol
+const id = Symbol('id')
+
+// BigInt
+const n = 9007199254740991n;
+
+// Reference Types
+const numbers = [1,2,3,4]
+
+const person = {
+  name: 'Gabe'
+};
+
+function sayHello(){
+  console.log('Hello');
+}
+
+const output = sayHello;
+
+// typeof lists the data type of the listed variable.
+console.log(output, typeof output);
+
+// ECMAScript Language Specification
+// https://262.ecma-international.org/5.1/#sec-11.4.3
