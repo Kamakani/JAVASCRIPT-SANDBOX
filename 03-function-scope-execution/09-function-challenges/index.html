@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Function Challenges</title>
+</head>
+<body>
+  <h1>Function Challenges</h1>
+  <script src="script.js"></script>
+
+  <h2>Function Challenges</h2>
+  <p>Now that you know the basics of how functions work, let's try a few challenges</p>
+
+  <h3>Challenge 1</h3>
+  <h4>Instructions:</h4>
+  <p>Create a function called getCelsius() that takes a temperature in Fahrenheit as an argument and returns the temperature in celsius.</p>
+  <p>For bonus points, write it as a one line arrow function.</p>
+  <h4>Expected Result:</h4>
+  <p>console.log(getCelsius(32)); // 0</p>
+  <p>You can make the output look prettier by putting it into a string. You can even add \xB0 (degrees) and a C in front of the celsius temperature.</p>
+  <p>console.log(`The temperature is ${getCelsius(32)} \xB0C`)</p>
+  <p>// The temperature is 0 \xB0C</p>
+  <h4>Hints:</h4>
+  <p>The formula for Fahrenheit to Celsius is (F - 32) * 5 / 9.</p>
+  <h3>CHALLENGE 2</h3>
+  <p>Create an arrow function called minMax() that takes in an array of numbers and returns an object with the minimum and maximum numbers in the array.</p>
+  <h4>Expected Result:</h4>
+  <p>console.log(minMax([1,2,3,4,5]));</p>
+  <p>// {min: 1, max: 5 }</p>
+  <h4>Hints:</h4>
+  <p>1. You can use Math.min() and Math.max() to get the min and max of a list of numbers.</p>
+  <p>2. You can use the spread ... operator to spread the values of an array into separate arguments.</p>
+  <h3>CHALLENGE 3</h3>
+  <p>Create an IIFE (Immediately Invoked Function Expression) that takes in the length and width of a rectangle and outputs it to the console in a message as soon as the page loads.</p>
+  <h4>Expected Result</h4>
+  <p>// on page load</p>
+  <p>The area of a rectangle with a length of 10 and a width of 5 is 50</p>
+  <h4>Hints:</h4>
+  <p>1. The area of a rectangle is length * width. These should get passed into the IIFE as arguments.</p>
+  <p>2. You do not have to return anything from this function, just log to the console.</p>
+</body>
+</html>
