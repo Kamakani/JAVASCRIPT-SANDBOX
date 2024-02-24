@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .callStack {
+      border: 1px solid black;
+      padding: 10px;
+      display: inline-block;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Call Stack</title>
+</head>
+<body>
+  <h1>Call Stack</h1>
+
+  <h2>The Call Stack</h2>
+  <p>Stack of functions to be executed</p>
+  <p>Manages execution contexts</p>
+  <p>Stacks are LIFO last in first out</p>
+  <div class="callStack">
+    <textarea name="third" id="third" cols="10" rows="2">third()</textarea><br>
+    <textarea name="second" id="second" cols="10" rows="2">second()</textarea><br>
+    <textarea name="first" id="first" cols="10" rows="2">first()</textarea><br>
+    <textarea name="globalEC" id="globalEC" cols="10" rows="2">Global EC</textarea>
+  </div>
+  <p>Call Stack</p>
+  <h2>Call Stack 2</h2>
+  <textarea name="thirdTwo" id="third" cols="10" rows="2">third()</textarea>
+  <div class="callStack">
+    <textarea name="secondTwo" id="second" cols="10" rows="2">second()</textarea><br>
+    <textarea name="globalECTwo" id="globalEC" cols="10" rows="2">Global EC</textarea>
+  </div>
+  <textarea name="firstTwo" id="first" cols="10" rows="2">first()</textarea>
+
+  <script src="script.js"></script>
+</body>
+</html>
