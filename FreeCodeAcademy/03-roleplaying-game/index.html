@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RPG Dragon Repeller</title>
+  <!--To add a style sheet, include the link with rel set to stylesheet and href set to the correct location for the file-->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!--div with the id game is where the entire game is located-->
+  <div id="game">
+    <!--the divs below have id's to display the content within each section-->
+    <!--first section is stats-->
+    <div id="stats">
+      <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
+      <span class="stat">Health: <strong><span id="healthText">100</span></strong></span>
+      <span class="stat">Gold: <strong><span id="goldText">50</span></strong></span>
+    </div>
+    <!--second section is controls-->
+    <div id="controls">
+      <!--the buttons listed below are set to button 1, button 2, button 3-->
+      <!--button 1 will move the player to the store-->
+      <button id="button1">Go to store</button>
+      <!--button 2 will move the player to the cave-->
+      <button id="button2">Go to cave</button>
+      <!--button 3 will begon the fight with the dragon-->
+      <button id="button3">Fight dragon</button>
+    </div>
+    <!--third section is monster stats-->
+    <div id="monsterStats">
+      <span class="stat">Monster Name: <strong><span id="monsterName"></span></strong></span>
+      <span class="stat">Health: <strong><span id="monsterHealth"></span></strong></span>
+    </div>
+    <!--foruth section is text-->
+    <div id="text">
+      Welcome to Dragon Repeller. You must defeat the dragon that is preventing people from leaving the town. You are in the town square. Where do you want to go? Use the buttons above.
+    </div>
+  </div>
+  <!--One way to add javascript is to add the script tag within the head tag of the html, this will allow you to write javascript straight into the html file.-->
+  <script src="./script.js"></script>  
+</body>
+</html>
